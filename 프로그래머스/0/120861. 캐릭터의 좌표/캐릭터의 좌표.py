@@ -12,7 +12,6 @@ def solution(keyinput, board):
         elif i == 'right':
             start[0] += 1
 
-        # x축 경계 처리
         if start[0] > cod[0]:
             start[0] = cod[0]
         elif start[0] < -cod[0]:
